@@ -1,0 +1,106 @@
+body{
+
+background:gray;
+}
+
+form{
+
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+gap: 28px;
+}
+
+h1{
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.central-container{
+    background: White;
+    border-radius: 20px;
+    position: absolute;
+    width: 617px;
+    left: 50%;
+    top: 50%;
+    height: 763px;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    justify-content: start;
+    flex-wrap: wrap;
+    align-items:start;
+
+}
+
+.name{
+    width: 515px;
+    box-sizing: border-box;
+    width: 515px;
+    height: 40px;
+    
+}
+
+.password{
+    width: 330px;
+    box-sizing: border-box;
+    width: 330px;
+    height: 40px;
+    
+
+}
+
+.img{
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+
+.email{
+    width: 330px;
+    box-sizing: border-box;
+    width: 330px;
+    height: 40px;
+}
+
+.phone{
+    width: 162px;
+    box-sizing: border-box;
+    width: 162px;
+    height: 40px;
+}
+
+.birthday{ 
+    width: 162px;
+    box-sizing: border-box;
+    width: 162px;
+    height: 40px;
+}
+
+.register{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 12px;
+    gap: 6px;
+
+    position: absolute;
+    width: 81px;
+    height: 40px;
+    left: 370px;
+    background: #0DBDBD;
+    border-radius: 10px;
+    
+
+}
+
+/* label, input{
+    
+    display:flex;
+    flex-direction:column;
+} */

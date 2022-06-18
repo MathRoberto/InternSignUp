@@ -1,6 +1,6 @@
 body{
 
-background:gray;
+    background: #ECEEF2;
 }
 
 form{
@@ -14,6 +14,10 @@ gap: 28px;
 h1{
     padding: 40px;
     margin: 0 auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
 }
 
 .central-container{
@@ -39,16 +43,21 @@ h1{
 .name{
     width: 515px;
     box-sizing: border-box;
-    width: 515px;
     height: 40px;
+    background: #FFFFFF;
+    border: 2px solid #AAAAAA;
+    border-radius: 4px;
+    
     
 }
 
 .password{
     width: 330px;
     box-sizing: border-box;
-    width: 330px;
     height: 40px;
+    background: #FFFFFF;
+    border: 2px solid #AAAAAA;
+    border-radius: 4px;
     
 
 }
@@ -63,22 +72,28 @@ h1{
 .email{
     width: 330px;
     box-sizing: border-box;
-    width: 330px;
     height: 40px;
+    background: #FFFFFF;
+    border: 2px solid #AAAAAA;
+    border-radius: 4px;
 }
 
 .phone{
     width: 162px;
     box-sizing: border-box;
-    width: 162px;
     height: 40px;
+    background: #FFFFFF;
+    border: 2px solid #AAAAAA;
+    border-radius: 4px
 }
 
 .birthday{ 
-    width: 162px;
     box-sizing: border-box;
     width: 162px;
     height: 40px;
+    background: #FFFFFF;
+    border: 2px solid #AAAAAA;
+    border-radius: 4px;
 }
 
 .register{
@@ -95,12 +110,38 @@ h1{
     left: 370px;
     background: #0DBDBD;
     border-radius: 10px;
-    
-
 }
 
-/* label, input{
+.checkbox-text{
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 18px;
+color: #111111;
+}
+
+.check{
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+        
+}
+
+label{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #767676;   
+} 
+
+input{
     
-    display:flex;
-    flex-direction:column;
-} */
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px; 
+    color: #767676;
+}

@@ -114,11 +114,11 @@ h1{
 
 .checkbox-text{
     font-family: 'Nunito';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 18px;
-color: #111111;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    color: #111111;
 }
 
 .check{

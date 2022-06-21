@@ -15,33 +15,41 @@
         <form class="form">
             <div>
                 <label id="name">Full Name*</label><br>
-                <input type="name" name='Name' placeholder="Name" class="name" required>
+                <input type="text" placeholder="Name" class="name" id="contact-name" onkeyup="validateName()" required>
+                <span id="name-error"></span>
             </div>
             <div>
-                <label id="enail">Email*</label><br>
-                <input type="email" name="Email" placeholder="foo@bar.com" class="email" required>
+                <label id="email">Email*</label><br>
+                <input type="email" name="Email" placeholder="foo@bar.com" class="email" id='contact-email' onkeyup="validateEmail()" required>
+                <span id="email-error"></span>
             </div>
             <div>
                 <label id='tel'>Phone*</label><br>
-                <input type="tel" name="Phone" placeholder="(32)4002-8922" class="phone" required>
+                <input type="tel" name="Phone" placeholder="(32)4002-8922" class="phone" id="contact-phone" onkeyup="validatePhone()" required>
+                <span id="phone-error"></span>
             </div>
             <div>
                 <label id="password">Password*</label><br>
-                <input type="password" name="password" placeholder="Enter your password" class="password" required>
+                <input type="password" minlength="5" name="password" placeholder="Enter your password" class="password" id="contact-password" onkeyup="validatePassword()" required>
+                <span id="password-error"></span>
             </div>
             <div>
                 <label id="date"'>Birthday*</label><br>
-                <input type="date" class="birthday" placeholder="" required>
+                <input type="date" class="birthday" placeholder="" id='contact-age' onkeyup="validadeAge()" required>
+                <span id='age-error'></span>
             </div>
-            <div>
-                <input type="checkbox" class="check" required> <label class="checkbox-text">I accept the terms and privacy.</label>
-            </div>
-            <div>
+            <div class="last-line-container">
+                <input type="checkbox" class="check" id="checkbox-mark" onclick="validateCheckbox()" required> 
+                <label class="checkbox-text">I accept the terms and privacy.</label>
                 <button type="submit" name="Register" class="register">Register</button>
+                <span id="checkbox-error">You must accept the terms.</span>
             </div>
-        </form>
-
-          
+            <div> 
+            </div>
+        </form>      
     </div>
+        <script src="script.js"></script>
 </body>
 </html>
+
+

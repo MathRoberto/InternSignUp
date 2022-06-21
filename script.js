@@ -77,23 +77,9 @@ function validateCheckbox(){
 
 function registerOK(){
 
-
-// Two places to customize:
-
-// Specify the id of the form.
 var IDofForm = "form";
-
-// Specify the id of the div containing the form.
 var IDofDivWithForm = "formdiv";
 
-// End of customizations.
-
-// This line submits the form. (If Ajax processed, call Ajax function, instead.)
 document.getElementById(IDofForm).submit();
-
-// This collapses the form.
-document.getElementById(IDofDivWithForm).style.visibility = "hidden";
-
-
-    
+document.getElementById(IDofDivWithForm).style.visibility = "hidden"; 
 }

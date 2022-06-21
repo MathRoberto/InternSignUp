@@ -4,6 +4,7 @@ var phoneError = document.getElementById('phone-error');
 var passwordError = document.getElementById('password-error');
 var ageError = document.getElementById('age-error');
 var checkboxError = document.getElementById('checkbox-error');
+var btnRegister = document.getElementById('registerbtn');
 
 function validateName(){
 
@@ -72,4 +73,27 @@ function validateCheckbox(){
     if(document.getElementById('checkbox-mark').checked){
         checkboxError.innerHTML = ''
     }
+}
+
+function registerOK(){
+
+
+// Two places to customize:
+
+// Specify the id of the form.
+var IDofForm = "form";
+
+// Specify the id of the div containing the form.
+var IDofDivWithForm = "formdiv";
+
+// End of customizations.
+
+// This line submits the form. (If Ajax processed, call Ajax function, instead.)
+document.getElementById(IDofForm).submit();
+
+// This collapses the form.
+document.getElementById(IDofDivWithForm).style.visibility = "hidden";
+
+
+    
 }

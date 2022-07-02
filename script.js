@@ -67,7 +67,7 @@ function validatePassword(){
     return true;    
 }
 
-// Não sei fazer o da data
+// Não sei fazer o da data 
 
 function validateCheckbox(){
     if(document.getElementById('checkbox-mark').checked){
@@ -81,5 +81,5 @@ var IDofForm = "form";
 var IDofDivWithForm = "formdiv";
 
 document.getElementById(IDofForm).submit();
-document.getElementById(IDofDivWithForm).style.visibility = "hidden"; 
+document.getElementById(IDofDivWithForm).style.visibility = 'hidden'; 
 }
